@@ -19,7 +19,7 @@ This is a simple web application that allows you to upload a file, compress it u
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/MehulKhandelwal/huffman-coding-flask.git
+git clone https://github.com/Mehul-kh2005/Huffman-Coding-Web-App
 cd huffman-coding-flask
 ```
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 To run the application locally, use the following command:
 
 ```bash
-python app.py
+python3 app.py
 ```
 
 This will start a local server at `http://127.0.0.1:5000/`. Open this URL in your web browser to interact with the application.
@@ -79,8 +79,10 @@ huffman-coding-flask/
 ├── templates/
 │   ├── index.html    # Home page HTML template
 │   └── result.html   # Page to show compressed and decompressed files
-└── static/
-    └── style.css     # Styling for the web pages
+├── static/
+│   └── style.css     # Styling for the web pages
+├── .gitignore        # Git ignore file
+└── requirements.txt  # List of dependencies (if applicable)
 ```
 
 ## Author
