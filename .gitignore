@@ -1,0 +1,18 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Flask instance folder
+instance/
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
