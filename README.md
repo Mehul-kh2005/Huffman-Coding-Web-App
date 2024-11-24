@@ -3,10 +3,10 @@
 This is a simple web application that allows you to upload a file, compress it using the Huffman coding algorithm, and then download both the compressed and decompressed versions of the file. The application is built using **Flask** for the backend and implements **Huffman coding** for file compression.
 
 ## Features
-- **File Upload**: Upload a text file to be compressed.
-- **Huffman Compression**: The file will be compressed using the Huffman coding algorithm.
-- **Decompression**: Download the decompressed version of the file.
-- **File Download**: Download both the compressed and decompressed files.
+- **File Upload**: Upload a text file to be processed.
+- **Huffman Compression**: Compress the uploaded file using the Huffman coding algorithm.
+- **Decompression (Optional)**: Reconstruct the original file from the compressed data for verification.
+- **File Download**: Download the compressed file and, if decompressed, the reconstructed file.
 
 ## Requirements
 - Python 3.x
@@ -62,7 +62,7 @@ To run the application locally, use the following command:
 python3 app.py
 ```
 
-This will start a local server at `http://127.0.0.1:5000/`. Open this URL in your web browser to interact with the application.
+This will start a local server, typically at `http://127.0.0.1:5000/`. If port `5000` is unavailable, Flask may use a different port (e.g., `5001`, `5002`, etc.). Check your terminal for the exact URL to access the application.
 
 ## How It Works
 1. **Upload a File:** Select a file to upload for compression.
@@ -89,4 +89,10 @@ huffman-coding-flask/
 ### Mehul Khandelwal – [GitHub Profile](https://github.com/Mehul-kh2005/)
 
 ## License
-This project is restricted. All rights reserved by the author. You cannot use, copy, or distribute the code without permission.
+This project is the intellectual property of **Mehul Khandelwal**.
+
+**Allowed:**
+You are permitted to use this project by following the steps mentioned in this README file.
+
+**Restricted:**
+You are not allowed to modify, copy, distribute, or use this project in any way beyond what is explicitly mentioned without prior permission from the author.
